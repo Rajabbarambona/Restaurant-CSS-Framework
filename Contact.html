@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/eb3f14be73.js" crossorigin="anonymous"></script>
+    <title>NevadaResto</title>
+</head>
+
+<body>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+
+            <img src="./assets/images/logo.png" width="200px" height="200px" class="d-inline-block align-top" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+
+                <a class="navbar-brand" text-white href="/">Home</a>
+                <a class="navbar-brand" text-white href="restaurant.html">Restaurant</a>
+                <a class="navbar-brand" text-white href="Gallery.html">Gallery</a>
+                <a class="navbar-brand" text-white href="Menu.html">Menu</a>
+                <a class="navbar-brand" text-white href="Contact.html">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+    <!--fin NAV-->
+
+
+    <main role="main">
+
+        <!--JUMBOTRON-->
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 class="display-3">Contact us</h1>
+            </div>
+        </div>
+        <!--JUMBOTRON-->
+        <!--CONTENU-->
+        <div class="container mw-50 mt-5 mb-3">
+            <div class="row">
+                <div class="col-12">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputFirstName">First Name</label>
+                                <input type="text" class="form-control" id="inputFirstName">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputLastName">Last Name</label>
+                                <input type="text" class="form-control" id="inputLastName">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail4">Email Adress</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputSubject">Subject</label>
+                            <input type="text" class="form-control" id="inputSubject">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputDepartment">Department</label>
+                            <select id="inputDepartment" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Management</option>
+                                <option>HR</option>
+                                <option>IT</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send<i
+                                class="fas fa-paper-plane p-2"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--CONTENU-->
+    </main>
+
+    <!--FOOTER -->
+    <hr>
+    <footer class="text-center">
+        <p>Copyright &copy; July 2021 - Rajab Barambona. All Rights Reserved</p>
+    </footer>
+    <!--FOOTER-->
+</body>
+
+</html>
